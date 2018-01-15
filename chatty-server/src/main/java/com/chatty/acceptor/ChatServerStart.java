@@ -71,8 +71,4 @@ public class ChatServerStart extends AbstractChatServer{
                 ;
         return bootstrap.bind(address);
     }
-
-    public static void main(String[] args) throws InterruptedException {
-        new ChatServerStart(8080).start();
-    }
 }

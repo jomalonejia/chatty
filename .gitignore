@@ -12,7 +12,7 @@ test/e2e/reports
 selenium-debug.log
 package-lock.json
 
-# IntelliJ project files
+# IntelliJ project filesf
 .idea
 *.iml
 out
