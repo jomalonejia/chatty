@@ -1,8 +1,8 @@
 package com.chatty.acceptor;
 
-import com.netty.chat.chat2.common.IdleTrigger;
-import com.netty.chat.chat2.handler.AuthHandler;
-import com.netty.chat.chat2.handler.MessageHandler;
+import com.chatty.common.IdleTrigger;
+import com.chatty.handler.AuthHandler;
+import com.chatty.handler.MessageHandler;
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
 import io.netty.channel.ChannelInitializer;

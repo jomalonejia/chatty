@@ -1,7 +1,7 @@
 package com.chatty.handler;
 
 import com.alibaba.fastjson.JSON;
-import com.netty.chat.chat2.common.Message;
+import com.chatty.common.Message;
 import io.netty.channel.ChannelHandlerContext;
 import io.netty.channel.SimpleChannelInboundHandler;
 import io.netty.handler.codec.http.websocketx.TextWebSocketFrame;
